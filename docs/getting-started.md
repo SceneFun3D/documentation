@@ -8,7 +8,7 @@ This documentation provides a comprehensive guide to help you efficiently integr
 
 Documentation is organized into 4 parts:
 
-* [Dataset](/dataset/overview): This section covers everything related to the SceneFun3D dataset. The documentation explains the data assets, format and organization.
+* [Dataset](site:dataset/overview): This section covers everything related to the SceneFun3D dataset. The documentation explains the data assets, format and organization.
 
 * [Toolkit](toolkit/overview): This section provides essential tools to work with the SceneFun3D dataset efficiently. It includes utilities for downloading, parsing and visualizing the data. Additionally, you'll find example codes to help you get started quickly and easily integrate these tools into your workflow.
 
