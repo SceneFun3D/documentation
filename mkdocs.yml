@@ -1,5 +1,5 @@
 site_name: SceneFun3D
-site_url: https://scenefun3d.github.io/documentation/
+site_url: https://scenefun3d.github.io/documentation
 site_author: Alex Delitzas
 
 # Repository
@@ -73,7 +73,6 @@ plugins:
   - minify:
       minify_html: true
   - mkdocstrings
-  - site-urls
 
 # Copyright
 copyright: Copyright &copy; 2024 SceneFun3D
