@@ -50,6 +50,6 @@ we perform the following improvements and provide the related assets:
 
 <p align="center">
   <a href="">
-    <img src="assets/scenefun3d_scenes.png" alt="Logo" width="100%">
+    <img src="site:assets/scenefun3d_scenes.png" alt="Logo" width="100%">
   </a>
 </p>
