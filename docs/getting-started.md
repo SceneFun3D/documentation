@@ -10,8 +10,8 @@ Documentation is organized into 4 parts:
 
 * [Dataset](site:dataset/overview): This section covers everything related to the SceneFun3D dataset. The documentation explains the data assets, format and organization.
 
-* [Toolkit](toolkit/overview): This section provides essential tools to work with the SceneFun3D dataset efficiently. It includes utilities for downloading, parsing and visualizing the data. Additionally, you'll find example codes to help you get started quickly and easily integrate these tools into your workflow.
+* [Toolkit](site:toolkit/overview): This section provides essential tools to work with the SceneFun3D dataset efficiently. It includes utilities for downloading, parsing and visualizing the data. Additionally, you'll find example codes to help you get started quickly and easily integrate these tools into your workflow.
 
-* [Annotation tool](annotation-tool): This section provides step-by-step instructions for setting up the annotation tool, navigating its features and annotation interfaces.
+* [Annotation tool](site:annotation-tool): This section provides step-by-step instructions for setting up the annotation tool, navigating its features and annotation interfaces.
 
-* [Benchmarks](benchmarks/guidelines): In the benchmarks section, we describe the proposed tasks and provide general evaluation guidelines, including instructions for local evaluation and how to submit results to our online benchmarks.
+* [Benchmarks](site:benchmarks/guidelines): In the benchmarks section, we describe the proposed tasks and provide general evaluation guidelines, including instructions for local evaluation and how to submit results to our online benchmarks.

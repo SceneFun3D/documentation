@@ -18,7 +18,7 @@ where the supported arguments are:
 
 * `--dataset_assets <identifier list of data assets to download>`: Specify the identifier list of the data assets to download. See the table below for the supported data asset identifiers. You can specify the data assets to download as `--dataset_assets <identifier-1> <identifier-2> ... <identifier-n>`
 
-Below you can find a list with the supported *data asset identifiers*. To download the desired data assets, add the corresponding identifiers after the `--dataset_assets` argument. You can find a detailed description of each data asset at [*Dataset > Data assets and File structure*](/dataset/file-structure).
+Below you can find a list with the supported *data asset identifiers*. To download the desired data assets, add the corresponding identifiers after the `--dataset_assets` argument. You can find a detailed description of each data asset at [*Dataset > Data assets and File structure*](site:dataset/file-structure).
 
 | Data asset identifier | Filename | Description |
 |-----------------------------|----------|-------------|

@@ -61,12 +61,12 @@ Data is organized per *visit_id* as follows:
 
 ## Data download
 
-To download the data, please refer to [*Toolkit > Data Downloader*](/toolkit/data-downloader).
+To download the data, please refer to [*Toolkit > Data Downloader*](site:toolkit/data-downloader).
 
 ## Annotation data
 
 For each scene, the annotation data are provided in `annotation.json`, `descriptions.json` and `motions.json`. For information about the data format, 
-please refer to [*Dataset > Annotations*](/dataset/annotations).
+please refer to [*Dataset > Annotations*](site:dataset/annotations).
 
 ## Laser scan and ARKit coordinate system
 

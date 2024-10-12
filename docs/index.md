@@ -38,7 +38,7 @@
 
 ## News 📢 
 
-Check the [**Changelog**](/changelog) for detailed updates (*Last update*: 10/10)
+Check the [**Changelog**](site:changelog) for detailed updates (*Last update*: 10/10)
 
 - **October 10, 2024**: Initial release.
 
