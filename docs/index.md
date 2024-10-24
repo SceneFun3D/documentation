@@ -43,7 +43,7 @@ Check the [**Changelog**](site:changelog) for detailed updates (*Last update*: 1
 - **October 10, 2024**: Initial release.
 
 ## Quick links 🔗
-
+* <a href="https://scenefun3d.github.io/documentation/toolkit/data-downloader/" target="_blank">Data Downloader</a>
 * <a href="https://scenefun3d.github.io" target="_blank">Project page</a>
 * <a href="https://alexdelitzas.github.io/assets/pdf/SceneFun3D.pdf" target="_blank">Paper</a>
 * <a href="https://github.com/SceneFun3D" target="_blank">Github repositories</a>
