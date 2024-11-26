@@ -49,10 +49,10 @@ To download the scenes in the train/val sets, you can run:
 ```
 python -m data_downloader.data_asset_download --split train_val_set --download_dir data/ --dataset_assets <identifier list of data assets to download>
 ```
-where `<identifier list of data assets to download>` should be substituted with the identifiers of the data assets you want to download. For example, to download the combined laser scan, the low resolution RGB frames, depth maps and camera intrinsics, the camera trajectory and the transformation matrix, you can run:
+where `<identifier list of data assets to download>` should be substituted with the identifiers of the data assets you want to download. For example, to download the combined laser scan, the high resolution RGB frames, depth maps, camera intrinsics and poses, you can run:
 
 ```
-python -m data_downloader.data_asset_download --split train_val_set --download_dir data/ --dataset_assets laser_scan_5mm lowres_wide lowres_depth lowres_wide_intrinsics camera_trajectory transform
+python -m data_downloader.data_asset_download --split train_val_set --download_dir data/ --dataset_assets laser_scan_5mm hires_wide hires_depth hires_wide_intrinsics hires_poses
 ```
 You can also add `--download_only_one_video_sequence`, if you want to download only one video sequence for each scene. This option will reduce the storage needed and the download time.
 
