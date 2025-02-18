@@ -8,7 +8,7 @@ cd scenefun3d
 
 **Create virtual environment**:
 ```
-conda create --name scenefun3d python=3.8
+conda create --name scenefun3d python=3.10
 conda activate scenefun3d
 pip install -r requirements.txt
 ```
