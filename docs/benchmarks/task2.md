@@ -102,4 +102,4 @@ Please make sure that it follows the correct [submission format](#submission-ins
 
 ## Evaluation metrics
 
-Submissions are evaluated using the mean Average Precision at the IoU thresholds of 0.25 and 0.50, denoted as $AP_{25}$ and $AP_{50}$ respectively. Submissions are ranked based on the $AP_{50}$ metric.
+Submissions are evaluated using the mean Average Precision at the IoU thresholds of 0.25 and 0.50, denoted as AP<sub>25</sub> and AP<sub>50</sub> respectively. Submissions are ranked based on the AP<sub>50</sub> metric.
