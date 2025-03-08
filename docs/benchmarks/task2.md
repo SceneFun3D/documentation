@@ -99,3 +99,7 @@ where:
 You can upload the `.zip` file containing your model's prediction on our online benchmark which performs evaluation on the hidden test set.
 
 Please make sure that it follows the correct [submission format](#submission-instructions). Otherwise, the submission will fail.
+
+## Evaluation metrics
+
+Submissions are evaluated using the mean Average Precision at the IoU thresholds of 0.25 and 0.50, denoted as $AP_{25}$ and $AP_{50}$ respectively. Submissions are ranked based on the $AP_{50}$ metric.

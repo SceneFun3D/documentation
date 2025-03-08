@@ -6,7 +6,9 @@ Currently, the benchmark is evaluated using [version 0.1.0](site:changelog/#0.1.
 
 **Benchmark results** are evaluated on the hidden test set for which we do not provide the ground-truth annotations. The benchmark is hosted on EvalAI and can be found [here (coming soon)](site:benchmarks/guidelines). 
 
-Prior to making a submission on the evaluation benchmark, make sure the submission is in the correct format. Otherwise, the submission will fail.
+Prior to making a submission on the evaluation benchmark, make sure the submission is in the correct format by following the instructions outlined for each task. Otherwise, the submission will fail.
+
+On the benchmark submission page, you can submit to both the validation and test splits. Since evaluation on the validation split can also be performed locally, this step acts as an optional sanity check. **Only test split submissions count towards official benchmarking**.
 
 In the sections below, you can find information about evaluation and benchmark submissions and description for each task:
 
