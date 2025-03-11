@@ -70,7 +70,7 @@ and `predicted_masks/123456_5baea371-b33b-4076-92b1-587a709e6c65_000.txt` could 
 
 where `predicted_masks/123456_000.txt` contains a **single line** with the RLE-encoded instance mask, where each pair corresponds to a start index and run length.
 
-As a utility, we provide a [script](https://github.com/SceneFun3D/scenefun3d/blob/main/eval/affordance_grounding/create_example_submission.py) that generates an example submission by reading the ground-truth data of the validaiton set in the evaluation format. This example achieves a perfect score on the benchmark's validation set.
+As a utility, we provide a [script](https://github.com/SceneFun3D/scenefun3d/blob/main/eval/affordance_grounding/create_example_submission.py) that generates an example submission by reading the ground-truth data of the validation set in the evaluation format. This example submission achieves a perfect score on the benchmark's validation set.
 
 !!! note
 
