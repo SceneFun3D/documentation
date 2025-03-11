@@ -38,16 +38,18 @@
 
 ## News 📢 
 
-Check the [**Changelog**](site:changelog) for detailed updates (*Last update*: 10/10)
+Check the [**Changelog**](site:changelog) for detailed updates (*Last update*: 10/03/2025)
 
+- **March 10, 2025**: The [benchmark submission portal](https://eval.ai/web/challenges/challenge-page/2466/overview) is now live. Check out the updated [submission instructions](https://scenefun3d.github.io/documentation/benchmarks/guidelines/) and the [changelog](site:changelog).
 - **October 10, 2024**: Initial release.
 
 ## Quick links 🔗
 * <a href="https://scenefun3d.github.io/documentation/toolkit/data-downloader/" target="_blank">Data Downloader</a>
 * <a href="https://scenefun3d.github.io" target="_blank">Project page</a>
 * <a href="https://alexdelitzas.github.io/assets/pdf/SceneFun3D.pdf" target="_blank">Paper</a>
-* <a href="https://github.com/SceneFun3D" target="_blank">Github repositories</a>
-* <a href="https://scenefun3d.github.io/documentation" target="_blank">Benchmarks (coming soon)</a>
+* <a href="https://github.com/SceneFun3D/scenefun3d" target="_blank">Toolkit</a>
+* <a href="https://eval.ai/web/challenges/challenge-page/2466/overview" target="_blank">Benchmark submission page</a>
+* <a href="https://scenefun3d.github.io/documentation/benchmarks/guidelines/" target="_blank">Benchmark instructions</a>
 
 ## BibTeX Citation 🙏
 

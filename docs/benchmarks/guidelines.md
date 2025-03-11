@@ -2,9 +2,9 @@
 
 The SceneFun3D training and validation sets can be utilized to train and evaluate models locally. For evaluation on the validation set, we provide evaluation scripts in the SceneFun3D toolkit for each task [here](https://github.com/SceneFun3D/scenefun3d/blob/main/eval). 
 
-Currently, the benchmark is evaluated using [version 0.1.0](site:changelog/#0.1.0) of the dataset.
+Currently, the benchmark is evaluated using [version 0.2.0](site:changelog/#0.2.0) of the dataset.
 
-**Benchmark results** are evaluated on the hidden test set for which we do not provide the ground-truth annotations. The benchmark is hosted on EvalAI and can be found [here (coming soon)](site:benchmarks/guidelines). 
+**Benchmark results** are evaluated on the hidden test set for which we do not provide the ground-truth annotations. The benchmark is hosted on EvalAI and can be found [here](https://eval.ai/web/challenges/challenge-page/2466/overview). 
 
 Prior to making a submission on the evaluation benchmark, make sure the submission is in the correct format by following the instructions outlined for each task. Otherwise, the submission will fail.
 

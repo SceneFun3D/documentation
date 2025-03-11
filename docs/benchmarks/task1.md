@@ -35,8 +35,7 @@ Results must be provided as a text file for each scene. Each text file should co
 for all the available laser scans.
 
 Each prediction file for a scene should contain a list of instances, where an instance is: (1) the relative path to the predicted mask file, (2) the affordance class ID and (3) the float confidence score. If your method does not produce confidence scores, you can use `1.0` as the confidence score for all masks. Each line in the prediction file should correspond to one instance, and the two values above separated by a space. Thus, the filenames in the prediction files must not contain spaces.
-The predicted instance mask file should provide the mask vertex indices of the provided laser scan, i.e., `{visit_id}_laser_scan.ply`, following the original order of the vertices in this file.
-Each instance mask file should contain one line per vertex, with each line containing an integer value. For example, the instance mask file of a mask which consists of 200 vertices, will contain 200 lines where each line will contain a mask vertex index as an integer value. 
+The predicted instance mask file should provide the mask vertex indices of the provided laser scan, i.e., `{visit_id}_laser_scan.ply`, following the original order of the vertices in this file. Following [ScanNet++](https://kaldir.vc.in.tum.de/scannetpp/benchmark/docs), we use Run-Length Encoding (RLE) to efficiently encode instance masks. Each instance mask file contains the RLE representation of the predicted mask over the vertices of the laser scan `{visit_id}_laser_scan.ply`, stored as pairs of start and length values. start is the 1-indexed position of a contiguous group of vertices in the point cloud, and length is the number of vertices in that group. For example, the RLE encoding of the 12-length binary mask `[0, 1, 1, 0, 0, 1, 1, 1, 0, 1, 1, 0]` is: `'2 2 6 3 10 2'`.
 
 Consider a scene identified by visit_id `123456`. In this case, the submission files could look like:
 
@@ -49,13 +48,12 @@ predicted_masks/123456_001.txt 3 0.9038
 
 and `predicted_masks/123456_000.txt` could look like:
 ```
-100128
-100134
-100174
-100231
-⋮
-100289
+2123 4 2235 3 3724 12 ...
 ```
+
+where `predicted_masks/123456_000.txt` contains a **single line** with the RLE-encoded instance mask, where each pair corresponds to a start index and run length.
+
+As a utility, we provide a [script](https://github.com/SceneFun3D/scenefun3d/blob/main/eval/functionality_segmentation/create_example_submission.py) that generates an example submission by reading the ground-truth data of the validaiton set in the evaluation format. This example achieves a perfect score on the benchmark's validation set.
 
 !!! note
 
@@ -118,6 +116,12 @@ where:
 You can upload the `.zip` file containing your model's prediction on our online benchmark which performs evaluation on the hidden test set.
 
 Please make sure that it follows the correct [submission format](#submission-instructions). Otherwise, the submission will fail.
+
+To create the `.zip` file for submission, you can run:
+```
+cd path/to/submission/files
+zip -r submission.zip *
+```
 
 ## Evaluation metrics
 
